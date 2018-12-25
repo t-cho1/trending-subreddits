@@ -15,6 +15,8 @@ const StyledSubreddit = styled.div<IStyledSubredditProps>`
   ${(p) => p.isSelected && `
     font-weight: bold;
     text-decoration: underline;
+    background: #595959;
+    color: white;
   `}
 
   &:hover {
